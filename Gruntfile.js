@@ -39,7 +39,7 @@ module.exports = function(grunt) {
   // Load the plugins tasks 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-watch'); //to musi być na końcu bo po nim nie sprawdza tasków
 
   // Default task(s).
   
